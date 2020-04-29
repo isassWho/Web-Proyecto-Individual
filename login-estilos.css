@@ -1,0 +1,126 @@
+.contenedor{
+    width: 80%;
+    background: rgb(171, 191, 199);
+    margin: auto;
+}
+/* HEADER */
+header{
+    background: rgb(122, 154, 250);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    text-align: center;
+}
+
+header img{
+    width: 70px;
+    height: 70px
+}
+
+/*SECTION*/
+section #iniciar-sesion{
+    background: red;
+}
+
+
+
+
+/* ESTILOS DE TAB */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }/* ESTILOS DE TAB */
+
+  .panel-tab{
+      background: rgb(255, 255, 255);
+      width: 400px;
+      margin: auto;
+      margin-top: 110px;
+  }
+
+  .tablinks{
+      width: 50%;
+      text-align: left;
+      font-family: 'Lexend Giga', sans-serif;
+      font-size: 14px;
+  }
+
+  /* FORMULARIOS */
+  /*boton enviar*/
+  input[type="submit"]{
+    display: block;
+    width: 92%;
+    margin: auto;
+    border: 0;
+    background: rgb(72, 97, 240);
+    color: #fff;
+    padding: 11px 0;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+  }
+
+  input[type="email"], input[type="password"], input[type="text"]{
+      display: block;
+      margin: auto;
+      width: 90%;
+      margin-top: 16px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+
+
+  form div{
+      width: 92%;
+      margin: auto;
+      margin-bottom: 50px;
+  }
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 70px;
+    background: #383737;
+    color: white;
+    margin-top: 400px;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+

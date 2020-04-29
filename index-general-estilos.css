@@ -1,0 +1,157 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.contenedor{
+    width: 80%;
+    background: rgb(171, 191, 199);
+    margin: auto;
+}
+
+.contenedor-full{
+    width: 100%;
+}
+
+/* HEADER */
+header{
+    background: rgb(122, 154, 250);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+h1, h2{
+    text-align: center;
+}
+ header img{
+     width: 70px;
+     height: 70px
+ }
+
+
+/* FICHA DE IDENTIFICACION*/
+#ficha-identificacion .contenedor{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+
+
+#ficha-identificacion .titulo-formulario{
+    width: 100%;
+    border-bottom: 1px dashed black;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+#ficha-identificacion .contenedor{
+    width: 600px;
+
+}
+#ficha-identificacion form{
+font-size: 12px;
+margin-left: 5px;
+
+}
+
+/*acomodando los campos*/
+
+#ficha-identificacion form input[name="fecha-elaboracion"]{
+    width: 75.2%;
+}
+#ficha-identificacion form input[name="nombre"]{
+    width: 50%;
+}
+#ficha-identificacion form input[name="edad"]{
+    width: 8.8%;
+}
+#ficha-identificacion form input[name="fecha-nacimiento"]{
+    width: 21%;
+}
+#ficha-identificacion form input[name="ocupacion"]{
+    width: 20%;
+}
+#ficha-identificacion form input[name="lateralidad"]{
+    width: 17.6%;
+}
+#ficha-identificacion form input[name="nacionalidad"]{
+    width: 21.9%;
+}
+#ficha-identificacion form input[name="religion"]{
+    width: 15%;
+}
+#ficha-identificacion form input[name="domicilio"]{
+    width: 35%;
+}
+#ficha-identificacion form input[name="nombre-emergencia"]{
+    width: 39%;
+}
+
+
+/* ANTECEDENTES HEREDO-FAMILIARES*/
+
+#antecedentes .contenedor{
+    width: 1100px;
+    margin-bottom: 50px;
+}
+
+#antecedentes .contenedor  table{
+    background: rgb(140, 180, 255);
+    width: 100%;
+    
+}
+
+#antecedentes .contenedor tr{
+    width: 100%;
+}
+
+#antecedentes .contenedor th, #antecedentes .contenedor td{
+    border: 1px solid black;
+    
+}
+
+/*columnas*/
+#antecedentes .contenedor .primera-col{
+    width: 32%;
+    text-align: left;
+}
+#antecedentes .contenedor .segunda-col{
+    width: 7%;
+}
+#antecedentes .contenedor .tercera-col{
+    width: 7%;
+}
+#antecedentes .contenedor .cuarta-col{
+    width: 42%;
+}
+#antecedentes .contenedor .quinta-col{
+    width: 6%;
+}
+#antecedentes .contenedor .sexta-col{
+    width: 6%;
+}
+
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 70px;
+    background: #383737;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+
+
+
+
+
+
