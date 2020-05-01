@@ -6,9 +6,7 @@ session_start();
 
 $nombre_baja = $_POST['nombre'];
 
-
 $sentencia_aux = "select count(*) as CONTAR from pacientes_ficha_identificacion where nombre = '$nombre_baja'";
-
 
 $consulta_aux = mysqli_query($conexion, $sentencia_aux);
 

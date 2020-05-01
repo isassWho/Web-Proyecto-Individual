@@ -36,28 +36,21 @@
             </div>
             
             <div class="formulario">
-                <form action="" method="post">
+                <form action="logica/dar-alta.php" method="post">
                     <p>
-                        Fecha de Elaboración: <input type="date" name="fecha-elaboracion" id="fecha-elaboracion">
-                        Nombre: <input type="text" name="nombre" placeholder="Nombre">
-                        Género: <select id="genero">
-                                    <option value="masculino">Masculino</option>
-                                    <option value="femenino">Femenino</option>
-                                    <option value="otro">Otro</option>
-                                </select>
-                        Edad: <input type="number" name="edad"  min="1" max="110">
-                        Nacimiento: <input type="date" name="fecha-nacimiento">
-                        Ocupación: <input type="text" name="ocupacion" placeholder="Ocupación">
-                        Lateralidad: <select id="lateralidad">
-                            <option value="diestro">Diestro</option>
-                            <option value="zurdo">Zurdo</option>
-                            <option value="ambidiestro">Ambidiestro</option>
-                        </select>Nacionalidad: <input type="text" name="nacionalidad"  placeholder="Nacionalidad">
-                        Religion: <input type="text" name="religion"  placeholder="Religión">
-                        Teléfono: <input type="text" name="telefono"  placeholder="Teléfono">
-                        Domicilio: <input type="text" name="domicilio" placeholder="Domicilio">
-                        Teléfono de emergencia: <input type="text" name="telefono-emergencia"  placeholder="Teléfono de Emergencia">
-                        Persona a quien quiera contactar en caso de emergencia: <input type="text" name="nombre-emergencia"  placeholder="Persona para Emergencias">
+                        Fecha de Elaboración: <input type="text" name="fecha_elaboracion" id="fecha_elaboracion" placeholder="xxxx-xx-xx"required>
+                        Nombre: <input type="text" name="nombre" placeholder="Nombre" required>
+                        Género: <input type="text" name="genero" placeholder="M | F" required>                                
+                        Edad: <input type="number" name="edad"  min="1" max="110" required>
+                        Nacimiento: <input type="text" name="fecha_nacimiento"  placeholder="xxxx-xx-xx"required>
+                        Ocupación: <input type="text" name="ocupacion" placeholder="Ocupación" required>
+                        Lateralidad: <input type="text" name="lateralidad" placeholder="" required>
+                        Nacionalidad: <input type="text" name="nacionalidad"  placeholder="Nacionalidad" required>
+                        Religion: <input type="text" name="religion"  placeholder="Religión" required>
+                        Teléfono: <input type="text" name="telefono"  placeholder="Teléfono" required>
+                        Domicilio: <input type="text" name="domicilio" placeholder="Domicilio" required>
+                        Teléfono de emergencia: <input type="text" name="telefono_emergencia"  placeholder="Teléfono de Emergencia" required>
+                        Persona a quien quiera contactar en caso de emergencia: <input type="text" name="nombre_emergencia"  placeholder="Persona para Emergencias" required>
                     </p>
                     <input type="submit" name="guardas" value="Guardar" style="float: right;">
                 </form>
