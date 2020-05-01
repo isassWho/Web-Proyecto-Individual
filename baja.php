@@ -34,8 +34,8 @@
         <h2>Baja</h2>
         <div class="contenedor">
             <!--contenido-->
-            <form action="" method="post">
-                <p>Ingresa el nombre</p><input type="text" name="nombre">
+            <form action="logica/dar-baja.php" method="post">
+                <p>Ingresa el nombre</p><input type="text" name="nombre" required>
                 <input type="submit" name ="eliminar" value="Eliminar">
             </form>
         </div>

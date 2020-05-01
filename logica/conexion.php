@@ -15,6 +15,7 @@ if($conexion){
 }else{
     echo "No se pudo conectar a: '$bd'";
 }
+echo "<br><br>";
 
 
 

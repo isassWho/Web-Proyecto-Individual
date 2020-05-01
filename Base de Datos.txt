@@ -1,10 +1,41 @@
 create database historia_clinica_db;
 
 create table usuarios(
-correo varchar(30) primary key,
-contraseña varchar(20),
-tipo de usuario varchar(20)
+    correo varchar(30) primary key,
+    contraseña varchar(20),
+    tipo de usuario varchar(20)
 );
 
 insert into usuarios values("i@i","123","admin");
 insert into usuarios values("a@a","123","general");
+
+
+create table pacientes_ficha_identificacion(
+    fecha_elaboracion date,
+    nombre varchar(40) primary key,
+    genero varchar(20),
+    edad varchar(20),
+    fecha_nacimiento date,
+    ocupacion varchar(20),
+    lateralidad varchar(20),
+    nacionalidad varchar(20),
+    religion varchar(20),
+    telefono varchar(20),
+    domicilio varchar(50),
+    telefono_emergencia varchar(20),
+    persona_emergencia varchar(20)
+);
+
+insert into pacientes_ficha_identificacion values 
+("2020-05-01","Isai Lugo","Masculino", "22", "1998-03-04", "Estudiante", "Diestro",
+"Mexicana","Catolica", "4281088011","Jaral de Berrio","911","Florencia Lugo");
+
+insert into pacientes_ficha_identificacion values 
+("2010-02-23","Gael Lugo","Masculino", "18", "2001-10-01", "Estudiante", "Diestro",
+"Mexicana","Catolica", "4281055826","Jaral de Berrio","911","Gustavo Vazquez");
+
+
+
+
+
+
