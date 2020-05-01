@@ -23,13 +23,11 @@
             <!-- Tab content -->
             <div>
                 <div id="iniciar-cuenta" class="tabcontent">
-                    <form action="" method="POST">
+                    <form action="logica/logear.php" method="POST">
 
-                        <input type="email" name = "email" placeholder = "Correo" required>
-                        <input type="password" name = "password" placeholder = "Contraseña" required>
+                        <input type="email" name = "correo" placeholder = "Correo" required>
+                        <input type="password" name = "pass" placeholder = "Contraseña" required>
                         <input type="submit" name="Ingresar" value="Ingresar">
-                        <a href="index-general.html">Ingreso General</a>
-                        <a href="index-admin.html">Ingreso Admin</a>
                     </form>
                 </div>   
             </div>

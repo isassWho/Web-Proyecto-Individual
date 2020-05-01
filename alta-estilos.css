@@ -1,3 +1,4 @@
+
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -12,6 +13,12 @@ body{
 .contenedor-full{
     width: 100%;
 }
+h2{
+    background: rgba(8, 197, 49, 0.7);
+}
+h1 a{
+    text-decoration: none;
+}
 
 /* HEADER */
 header{
@@ -19,17 +26,15 @@ header{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    
-    
 }
 
 h1, h2{
     text-align: center;
 }
- header img{
+header img{
      width: 70px;
      height: 70px
- }
+}
 
 
 /* FICHA DE IDENTIFICACION*/
@@ -136,6 +141,51 @@ margin-left: 5px;
 #antecedentes .contenedor .sexta-col{
     width: 6%;
 }
+
+
+
+
+#antecedentes .contenido{
+    display: flex;
+}
+
+#antecedentes .columna{
+    width: 32%;
+
+}
+
+#antecedentes .form{
+    width: 68%;
+}
+
+#antecedentes .form .segunda-col, #antecedentes .form .tercera-col{
+    display: inline-block;
+    width: 9.8%;
+    text-align: center;
+}
+#antecedentes .form .cuarta-col{
+    display: inline-block;
+    width: 62.4%;
+    text-align: center;   
+}
+#antecedentes .form .quinta-col, #antecedentes .form .sexta-col{
+    display: inline-block;
+    width: 8.3%;
+    text-align: center;   
+}
+
+/*acomoda los renglones para que queden alineados horizontalmente*/
+#antecedentes td{
+    padding: 0;
+}
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 footer{
