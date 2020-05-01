@@ -26,6 +26,10 @@ $consulta_aux = mysqli_query($conexion, $sentencia_aux);
 //guarda todos los datos que trae en un array
 $array_aux = mysqli_fetch_array($consulta_aux);
 
+echo <<< EOT
+<p><a href="../alta.php">Regresar</a></p>
+EOT;
+
 if($array_aux['CONTAR'] > 0){
     
     echo "Paciente: ". $nombre ." duplicado, no se puede añadir.";
@@ -38,9 +42,6 @@ if($array_aux['CONTAR'] > 0){
     echo "El Paciente: ". $nombre .", añadido correctamente.";
     
 }
-echo <<< EOT
-<p><a href="../alta.php">Regresar</a></p>
-EOT;
 
 
 

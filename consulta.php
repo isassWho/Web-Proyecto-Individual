@@ -35,27 +35,13 @@
             </div>
             
             <div class="formulario">
-                <form action="" method="post">
-                    <p>
-                    Fecha de Elaboración: <input type="date" name="fecha-elaboracion" id="fecha-elaboracion">
-                    Nombre: <input type="text" name="nombre">
-                    Género: <select id="genero">
-                                <option value="masculino">Masculino</option>
-                                <option value="femenino">Femenino</option>
-                                <option value="otro">Otro</option>
-                            </select>
-                    Edad: <input type="number" name="edad"  min="1" max="110">
-                    Nacimiento: <input type="date" name="fecha-nacimiento">
-                    Ocupación: <input type="text" name="ocupacion">
-                    Lateralidad: <input type="text" name="lateralidad">
-                    Nacionalidad: <input type="text" name="nacionalidad">
-                    Religion: <input type="text" name="religion">
-                    Teléfono: <input type="text" name="telefono">
-                    Domicilio: <input type="text" name="domicilio">
-                    Teléfono de emergencia: <input type="text" name="telefono-emergencia">
-                    Persona a quien quiera contactar en caso de emergencia: <input type="text" name="nombre-emergencia">
-                </p>
+            
+                <!--contenido-->
+                <form action="logica/consultar-paciente.php" method="post">
+                    <p>Ingresa el nombre</p><input type="text" name="nombre" required>
+                    <input type="submit" name ="buscar" value="Buscar">
                 </form>
+        
             </div>
         </div>
     </section>
