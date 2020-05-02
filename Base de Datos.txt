@@ -38,4 +38,3 @@ insert into pacientes_ficha_identificacion values
 
 
 
-

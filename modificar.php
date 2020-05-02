@@ -23,7 +23,7 @@
     ?>
     
     <header>
-        <h1><a href="lobby-administrador.html">Historia Clínica</a></h1>
+        <h1><a href="lobby-administrador.php">Historia Clínica</a></h1>
         <img src="imagenes/simbolo-salud.png" alt="">
         <div>
             <p>Usuario: Administrador</p>
@@ -35,22 +35,25 @@
         <h2>Modificar</h2>
         <div class="contenedor">
             <!--contenido-->
-            <form action="" method="post">
+            <form action="logica/modificar-paciente.php" method="post">
                 <p>Nombre</p><input type="text" name="nombre" placeholder="Ingresa el Nombre" required>
                 <p>Campo a modificar: </p>
-                <select name="campo-a-modificar" id="campo-a-modificar" required>
-                    <option value="fecha-elaboracion">Fecha de Elaboración</option>
+                <select name="campo_a_modificar" id="campo_a_modificar" required>
+                    <option value="fecha_elaboracion">Fecha de Elaboración</option>
                     <option value="nombre">Nombre</option>
-                    <option value="genero">Genero</option>
+                    <option value="genero">Género</option>
                     <option value="edad">Edad</option>
-                    <option value="fecha-nacimiento">Fecha de Nacimiento</option>
+                    <option value="fecha_nacimiento">Fecha de Nacimiento</option>
+                    <option value="ocupacion">Ocupación</option>
+                    <option value="lateralidad">Lateralidad</option>
                     <option value="nacionalidad">Nacionalidad</option>
-                    <option value="religion">Teléfono</option>
+                    <option value="religion">Religión</option>
+                    <option value="telefono">Teléfono</option>
                     <option value="domicilio">Domicilio</option>
-                    <option value="telefono-emergencia">Telefono de Emergencia</option>
-                    <option value="nombre-emergencia">Nombre de Emergencia</option>
+                    <option value="telefono_emergencia">Teléfono de Emergencia</option>
+                    <option value="nombre_emergencia">Nombre de Emergencia</option>
                 </select>
-                <p>Nuevo valor</p><input type="text" name="nombre" placeholder="Ingresa el nuevo calor" required>
+                <p>Nuevo valor</p><input type="text" name="nuevo_valor" placeholder="Ingresa el nuevo calor" required>
                 <input type="submit" name ="actualizar" value="Actualizar">
             </form>
         </div>
