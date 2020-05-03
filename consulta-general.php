@@ -20,7 +20,7 @@
 
     ?>
     <header>
-        <h1><a href="lobby-administrador.php">Historia Clínica</a></h1>
+        <h1><a href="lobby-general.php">Historia Clínica</a></h1>
         <img src="imagenes/simbolo-salud.png" alt="">
         <div>
             <a href="logica/salir.php">Cerrar Sesión</a>

@@ -27,6 +27,7 @@
         <div>
             <p>Usuario: Administrador</p>
             <a href="logica/salir.php">Cerrar Sesión</a>
+            <a href="lobby-usuarios.php">Usuarios</a>
         </div>
         
     </header>

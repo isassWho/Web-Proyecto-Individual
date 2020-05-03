@@ -38,3 +38,87 @@ insert into pacientes_ficha_identificacion values
 
 
 
+# Tablas para cada enfermedad
+create table enfermedad_neoplasias_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+
+create table enfermedad_tuberculosis_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_diabetes_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_artritis_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_cardiopatrias_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_neorologicas_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_psiquiatricos_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_respiratorias_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_hepatopias_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_alergias_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_hipertension_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_hematologicas_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_endonicrologicas_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_geneticas_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+create table enfermedad_otros_Ale(
+    tiene varchar(2),
+    parentesco varchar(20),
+    genero varchar(10)
+);
+
+
+
+
+
+
+
